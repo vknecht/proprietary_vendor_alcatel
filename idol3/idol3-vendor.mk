@@ -24,6 +24,13 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/alcatel/idol3/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/alcatel/idol3/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb \
+    vendor/alcatel/idol3/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/alcatel/idol3/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/alcatel/idol3/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -495,6 +502,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/alcatel/idol3/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/alcatel/idol3/proprietary/bin/radish:system/bin/radish \
+    vendor/alcatel/idol3/proprietary/bin/rild:system/bin/rild \
     vendor/alcatel/idol3/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/alcatel/idol3/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/alcatel/idol3/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -505,10 +513,14 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/alcatel/idol3/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/alcatel/idol3/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/alcatel/idol3/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/alcatel/idol3/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
+    vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/alcatel/idol3/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
     vendor/alcatel/idol3/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/alcatel/idol3/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/alcatel/idol3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -558,6 +570,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -636,6 +649,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/alcatel/idol3/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
