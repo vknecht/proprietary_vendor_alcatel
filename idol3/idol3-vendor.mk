@@ -505,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/alcatel/idol3/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/alcatel/idol3/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/alcatel/idol3/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/alcatel/idol3/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
@@ -685,6 +684,7 @@ PRODUCT_PACKAGES += \
     colorservice \
     shutdownlistener \
     qcrilmsgtunnel \
+    com.qti.snapdragon.sdk.display \
     qcnvitems \
     qcrilhook
 endif
