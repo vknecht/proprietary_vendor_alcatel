@@ -66,8 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/lib/libtfa9897.so:system/lib/libtfa9897.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/libtfa9897.so:system/lib64/libtfa9897.so \
-    vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0049_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0049_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/alcatel/idol3/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0110_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/alcatel/idol3/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libactuator_a3907_camera.so:system/vendor/lib/libactuator_a3907_camera.so \
