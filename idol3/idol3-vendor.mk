@@ -507,10 +507,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/alcatel/idol3/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/alcatel/idol3/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/alcatel/idol3/proprietary/etc/USBDriver.iso:system/etc/USBDriver.iso \
-    vendor/alcatel/idol3/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/alcatel/idol3/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/alcatel/idol3/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
