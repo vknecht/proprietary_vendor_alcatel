@@ -510,6 +510,9 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/alcatel/idol3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
+    vendor/alcatel/idol3/proprietary/etc/permissions/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
     vendor/alcatel/idol3/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/alcatel/idol3/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
@@ -703,7 +706,10 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    android.hardware.sensor.proximity \
+    android.hardware.sensor.gyroscope \
+    android.hardware.sensor.light
 endif
 
 -include vendor/extra/devices.mk
