@@ -521,6 +521,8 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/alcatel/idol3/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/alcatel/idol3/proprietary/lib/hw/sensors.ranchu.so:system/lib/hw/sensors.ranchu.so \
+    vendor/alcatel/idol3/proprietary/lib64/hw/sensors.ranchu.so:system/lib64/hw/sensors.ranchu.so \
     vendor/alcatel/idol3/proprietary/lib/mmi_sensor.so:system/lib/mmi_sensor.so \
     vendor/alcatel/idol3/proprietary/lib64/mmi_sensor.so:system/lib64/mmi_sensor.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
