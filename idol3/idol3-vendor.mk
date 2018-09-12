@@ -449,7 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8858_idol3.so:system/vendor/lib/libmmcamera_ov8858_idol3.so \
-    vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8858_idol3_eyeverify.so:system/vendor/lib/libmmcamera_ov8858_idol3_eyeverify.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:system/vendor/lib/libmmcamera_ov8858_q8v19w.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w_30.so:system/vendor/lib/libmmcamera_ov8858_q8v19w_30.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
