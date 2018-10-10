@@ -502,6 +502,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/alcatel/idol3/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/alcatel/idol3/proprietary/bin/power_engine:system/bin/power_engine \
+    vendor/alcatel/idol3/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/alcatel/idol3/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/alcatel/idol3/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/alcatel/idol3/proprietary/bin/radish:system/bin/radish \
