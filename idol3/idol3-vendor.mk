@@ -518,8 +518,8 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/idol3/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/alcatel/idol3/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/alcatel/idol3/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
-    vendor/alcatel/idol3/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    vendor/alcatel/idol3/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/alcatel/idol3/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.stockmsm8916.so \
+    vendor/alcatel/idol3/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.stockmsm8916.so \
     vendor/alcatel/idol3/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
     vendor/alcatel/idol3/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
     vendor/alcatel/idol3/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
